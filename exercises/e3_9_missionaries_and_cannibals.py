@@ -133,7 +133,5 @@ class MissionariesAndCannibals(Problem):
 
 def solve():
     missionaries_and_cannibals = MissionariesAndCannibals((0, 0, 3, 3, 1))
-    print(breadth_first_graph_search(missionaries_and_cannibals).solution())
+    return breadth_first_graph_search(missionaries_and_cannibals).solution()
 
-
-solve()
